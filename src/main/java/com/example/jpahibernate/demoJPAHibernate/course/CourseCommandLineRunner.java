@@ -1,13 +1,13 @@
-package com.example.jpahibernate.demoJPAHibernate.course.jdbc;
+package com.example.jpahibernate.demoJPAHibernate.course;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.example.jpahibernate.demoJPAHibernate.course.Course;
+import com.example.jpahibernate.demoJPAHibernate.course.jdbc.CourseJdbcRepository;
 
 @Component
-public class CourseJdbcCommandLineRunner implements CommandLineRunner{
+public class CourseCommandLineRunner implements CommandLineRunner{
 	
 	@Autowired
 	private CourseJdbcRepository repository;
